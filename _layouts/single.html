@@ -36,6 +36,10 @@ layout: default
         
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+        {% elsif page.collection == 'publications' %}
+          {% if page.coauthors %}<p>With {{ page.coauthors }}</p>{% endif %}
+          {% if page.status %}<p><i>{{ page.status }}</i></p>{% endif %}
+          {% if page.presented %}<p>Presented at {{ page.presented }}</p>{% endif %}
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}
@@ -66,7 +70,7 @@ layout: default
         {% if site.data.ui-text[site.locale].meta_label %}
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
         {% endif %}
-        {% include page__taxonomy.html %}
+        {% unless page.collection == 'publications' %}{% include page__taxonomy.html %}{% endunless %}
       </footer>
 
       {% if page.share %}{% include social-share.html %}{% endif %}
