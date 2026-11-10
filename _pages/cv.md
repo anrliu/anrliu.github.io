@@ -9,56 +9,27 @@ redirect_from:
 
 {% include base_path %}
 
+<!-- When the CV PDF is ready, put it in files/ and add this line here:
+[Download CV (PDF)](/files/Anran_Liu_CV.pdf)
+-->
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D. in Economics, University of California, Davis (in progress)
+  * Advisor: Giovanni Peri
+* M.A. in Economics, University of California, Davis, 2024
+* Master's in Agricultural Economics and Management, Renmin University of China, 2020 to 2023
 
-Work experience
+Fields
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Labor Economics, Public Economics, Urban Economics, Development Economics
+* Secondary: Economics of AI
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+Honors and Awards
+======
+* Chinese Government Award for Outstanding Self-Financed Students Abroad (国家优秀自费留学生奖)
+* Beijing Outstanding Graduate (北京市优秀毕业生)
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+Research
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+Papers, coauthors, and presentations are listed on the [Research](/publications/) page.
