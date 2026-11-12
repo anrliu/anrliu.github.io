@@ -21,6 +21,11 @@ Job Market Paper
 
 Is extreme rural poverty a property of the people or the place? We study this question using China's Poverty Alleviation Relocation program, which moved 9.61 million residents out of remote villages between 2016 and 2020. Exploiting the staggered timing of destination housing construction, we estimate the impact of moving these communities closer to labor markets. Relocation increases adult employment by 20 percent and annual earnings by 38 percent. These gains occur among both new entrants to wage labor and existing workers. Per relocated adult, the rise in non-farm work comes to most of the gap between comparable town and village households. Heterogeneity analysis shows that earnings gains are largest for households experiencing the greatest reduction in travel time to the county seat. Combined with the value of new housing, the long-run income gains exceed the program's costs. We conclude that geographic isolation is a binding constraint on the earning potential of the remote poor. By relaxing this spatial constraint, relocation suggests that for these households the gap with the towns is largely a property of the place.
 
+<figure>
+  <img src="/images/papers/jmp-people-places.png" alt="Town-village gap in non-farm work from the 2015 census, and the gain in non-farm work per relocated adult from the survey">
+  <figcaption>Per relocated adult, the rise in non-farm work (blue, survey) comes to most of the gap between comparable town and village households in the same county (gray band, 2015 population census). Bars are 95 percent confidence intervals.</figcaption>
+</figure>
+
 Presented at the Econometric Society NASM and AMES 2026; CES 2026; CUFE International Doctoral Forum; UC Davis ARE Development Seminar; ANU Asian Perspective Seminar (scheduled).
 
 中文简介
