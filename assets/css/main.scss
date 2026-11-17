@@ -1,0 +1,50 @@
+---
+---
+
+/*
+ *    Minimal Mistakes Jekyll Theme
+ *
+ *  - Michael Rose
+ *  - mademistakes.com
+ *  - https://twitter.com/mmistakes
+ *
+*/
+
+@import "vendor/breakpoint/breakpoint"; // media query mixins
+@import "variables";
+@import "mixins";
+@import "vendor/susy/susy";
+
+@import "reset";
+@import "base";
+
+@import "utilities";
+@import "animations";
+@import "tables";
+@import "buttons";
+@import "notices";
+@import "masthead";
+@import "navigation";
+@import "footer";
+@import "syntax";
+
+@import "forms";
+
+@import "page";
+@import "archive";
+@import "sidebar";
+
+@import "vendor/font-awesome/fontawesome";
+@import "vendor/font-awesome/solid";
+@import "vendor/font-awesome/brands";
+@import "vendor/magnific-popup/magnific-popup";
+@import "print";
+
+/* publication metadata: status in semibold, talks in smaller gray italics */
+.pub-status { font-weight: 600; }
+.pub-talks { font-style: italic; color: #6f777d; font-size: 0.9em; }
+
+/* paper figures: smaller and centered */
+.page__content figure { max-width: 560px; margin-left: auto; margin-right: auto; }
+.page__content figure img { width: 100%; }
+.page__content figure figcaption { font-size: 0.8em; }

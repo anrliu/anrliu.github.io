@@ -1,0 +1,50 @@
+---
+layout: archive
+title: "Research"
+permalink: /publications/
+author_profile: true
+---
+
+{% include base_path %}
+
+<!-- New style rendering if publication categories are defined -->
+{% if site.publication_category %}
+  {% for category in site.publication_category  %}
+    {% assign title_shown = false %}
+    {% for post in site.publications %}
+      {% if post.category != category[0] %}
+        {% continue %}
+      {% endif %}
+      {% unless title_shown %}
+        <h2>{{ category[1].title }}</h2><hr />
+        {% assign title_shown = true %}
+      {% endunless %}
+      {% include archive-single.html %}
+    {% endfor %}
+  {% endfor %}
+{% else %}
+  {% for post in site.publications %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
+
+<h2>Working Papers</h2><hr />
+<ul>
+  <li><strong>Who Holds the Pen? AI Form-Filling and the Defense of Screening Signals</strong><br /><span class="pub-talks">Presented at the Economic Science Society Asia Meeting 2026</span></li>
+  <li><strong>The Hospital Premium: Patient Sorting and Inpatient Spending in China</strong>, with Yuzheng Wang</li>
+  <li><strong>When Externalities Interact: Air Pollution, Driving, and Urban Congestion</strong>, with Jing Cao, Xiangyu Du, Chen Xi, and Shaojun Zhang</li>
+</ul>
+
+<h2>Work in Progress</h2><hr />
+<ul>
+  <li><strong>Government Relocation and the Reorganization of Urban Economic Activity</strong>, with Mingzhe Wang</li>
+  <li><strong>Generative AI and the Minimum Scale of Knowledge Work</strong></li>
+</ul>
+
+<h2>Publications</h2><hr />
+<ul>
+  <li><strong>Alleviating Multi-Dimensional Poverty through Land Transfer: Evidence from Poverty-Stricken Villages in China</strong>, with Chengyou Li, Yong Jiao, and Tao Sun. <i>China Economic Review</i>, 2021.</li>
+  <li><strong>债务偿还能力、信贷约束与农户生活水平</strong> (Debt Repayment Capacity, Credit Constraints, and Rural Household Living Standards), with Meiyu Liu and Sujian Huang. <i>经济学动态</i> (Economic Perspectives), 2024(1).</li>
+  <li><strong>从双重差分法到事件研究法</strong> (From Difference-in-Differences to Event Studies), with Wei Huang and Ziyao Zhang. <i>产业经济评论</i> (Review of Industrial Economics), 2022(2).</li>
+  <li><strong>养老依赖、非农就业与中老年农户耕地租出——基于CHARLS三期面板数据分析</strong> (Old-Age Dependence, Nonfarm Employment, and Farmland Renting-Out among Middle-Aged and Older Rural Households), with Chengyou Li, Luoqi Yuan, and Chuankun Kang. <i>中国软科学</i> (China Soft Science), 2020(7).</li>
+</ul>
